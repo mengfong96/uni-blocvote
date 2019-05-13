@@ -2,81 +2,71 @@
   {
     "id": 0,
     "name": "Daniel Soon Yuen Hao",
-    "picture": "images/one.jpg",
+    "picture" : "images/person.jpg",
     "program": "SEMM", 
-    "year": "1",
-    "manifesto": ""
+    "year": "1"
   },
   {
     "id": 1,
     "name": "Nur Iman Aqilah",
-    "picture": "images/two.jpg",
+    "picture" : "images/person.jpg",
     "program": "SEIS", 
-    "year": "1",
-    "manifesto": ""
+    "year": "1"
   },
   {
     "id": 2,
     "name": "Sasha Shamsuddin Lee",
-    "picture": "images/three.jpg",
+    "picture" : "images/person.jpg",
     "program": "SEIS", 
-    "year": "2",
-    "manifesto": ""
+    "year": "2"
   },
   {
     "id": 3,
     "name": "Mohammad Syazwan",
-    "picture": "images/four.jpg",
+    "picture" : "images/person.jpg",
     "program": "SEMM", 
-    "year": "1",
-    "manifesto": ""
+    "year": "1"
   },
   {
     "id": 4,
     "name": "Nurin Izzati binti Noor Azman",
-    "picture": "images/five.jpg",
+    "picture" : "images/person.jpg",
     "program": "IT", 
-    "year": "1",
-    "manifesto": ""
+    "year": "1"
   },
   {
     "id": 5,
     "name": "Abdul Wahab bin Hosni",
-    "picture": "images/six.jpg",
+    "picture" : "images/person.jpg",
     "program": "SEIS", 
-    "year": "1",
-    "manifesto": ""
+    "year": "1"
   },
   {
     "id": 6,
     "name": "Abdullah Hakim",
-    "picture": "images/seven.jpg",
+    "picture" : "images/person.jpg",
     "program": "SEIS", 
-    "year": "1",
-    "manifesto": ""
+    "year": "1"
   },
   {
     "id": 7,
     "name": "Coleman",
-    "picture": "images/eight.jpg",
-    "program": "IT", 
-    "year": "1",
-    "manifesto": ""
+    "picture" : "images/person.jpg",
+    "program": "CS", 
+    "year": "3"
   },
   {
     "id": 8,
     "name": "Nichole",
-    "picture": "images/nine.jpg",
-    "program": "IT", 
-    "year": "1",
-    "manifesto": ""
+    "picture" : "images/person.jpg",
+    "program": "CS", 
+    "year": "3"
   },
   {
     "id": 9,
     "name": "Fran",
-    "picture": "images/ten.png",
+    "picture" : "images/person.jpg",
     "program": "IT", 
-    "year": "1",
-    "manifesto": ""
+    "year": "2"
   }
 ]

@@ -13,8 +13,6 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-
-
 </head>
 <script>
     $.get("nav.html", function(data){
@@ -22,12 +20,46 @@
 });
 </script>
 <body>
-		<div id="nav-bar-placeholder">
+  <center>
+    <div id="nav-bar-placeholder">
   </div>
-  <div>
-    <p>This is a paragraph</p>
-
+  <div id="container">
+    <div id="row">
+      <div id="col-xs-12 col-sm-8 col-sm-push-2">
+        <h1 class="text-center">List of Candidate</h1>
+        <br />
+        <br />
+      </div>
+      <div id="cansRow" class="row">
+        <!-- PETS LOAD HERE -->
+      </div>
+    </div>
+    <div id="cansTemplate" style="display: none;">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="panel panel-default panel-pet">
+          <div class="panel-heading">
+            <h3 class="panel-title">Candidate</h3>
+          </div>
+          <div class="panel-body">
+            <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 50%;" src="../../images.zero.png" data-holder-rendered="true">
+            <br/><br/>
+            <strong>Name</strong>: <span class="can-name">dummyLee Meng Fong</span><br/>
+            <strong>Program</strong>: <span class="can-program">dummySEIS</span><br/>
+            <strong>Year</strong>: <span class="can-year">2</span><br/>
+            <br/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <form action="vote.html">
+        <button class="btn btn-primary btn-lg" type="submit">Click Here to Vote!</button>
+      </form>
+    </div>
   </div>
+  </center>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/app2.js"></script>
   
 </body>
 </html>
