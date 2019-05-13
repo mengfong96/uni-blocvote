@@ -29,9 +29,9 @@ contract Election {
         addCandidate("Nurin Izzati binti Noor Azman");
         addCandidate("Abdul Wahab bin Hosni");
         addCandidate("Abdullah Hakim");
-        addCandidate("Coleman");
-        addCandidate("Nichole");
-        addCandidate("Fran");
+        addCandidate("Roy Wong Kim Jie");
+        addCandidate("Raymond Chua Yong Xiang");
+        addCandidate("Lim Jia Yon");
 
     }
 
