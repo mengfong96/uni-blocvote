@@ -1,7 +1,7 @@
 App = { 
 
 	
-	init: async function() {
+	init: function() {
 	    // Load pets.
 	    $.getJSON('../candidates.json', function(data) {
 	      var petsRow = $('#cansRow');
