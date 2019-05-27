@@ -1,87 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Voting | BlocVote</title>
-  <link type="text/css" rel="stylesheet" href="nav_bar.css" />
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>Pengundian | BLOCVOTE</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 </head>
 <script>
-    $.get("nav.html", function(data){
+  $.get("nav.html", function(data){
     $("#nav-bar-placeholder").replaceWith(data);
 });
 </script>
-<style>
 
-</style>
 <body>
   <div id="nav-bar-placeholder">
   </div>
-<center>
-   <div style="width: 650px" class="container">
+  <div class="container">
     <div class="row">
+      <div class="text-left">
+        <div class="page-header">
+          <br />
+          <h1>Pemilihan Majlis Perwakilan Pelajar</h1>
+          <h5>KAWASAN: FAKULTI TEKNOLOGI & SAINS MAKLUMAT</h5>
+          <br />
+        </div>
+      </div>
       <div class="col-lg-12">
-        <div class="page-header text-center">
-          <h2>UKM CAMPUS ELECTION 18/19</h2>
-          <p id="accountAddress"></p>
-        </div>
-
-
-        <div id="loader">
-          <p class="text-center">PLEASE WAITING WHILE WE LOADING UP WEBPAGE</p>
-        </div>
-
-
-        <div id="content" style="display: none;">
-          <table class="table table-bordered table-dark">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col"><strong>ID</strong></th>
-                <th scope="col"><strong>Name</strong></th>
-                <th scope="col"><strong>Votes</strong></th>
-              </tr>
-            </thead>
-            <tbody id="candidatesResults">
-            </tbody>
-          </table>
-          <hr />
-          <form onSubmit="App.castVote(); return false;">
-            <div class="form-group">
-              <label for="candidatesSelect" class=" ">Please Select Candidate</label>
-              <select class="form-control" id="candidatesSelect">
-              </select>
+        <center>
+          <div id="loader">
+            <p class="text-center">PLEASE WAITING WHILE WE LOADING UP WEBPAGE</p>
+          </div>
+          <div id="content" style="display: none; width: 650px">
+            <table class="table table-sm table-bordered table-hover">
+              <caption>Keputusan Pengundian</caption>
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Votes</th>
+                </tr>
+              </thead>
+              <tbody id="candidatesResults">
+              </tbody>
+            </table>
+            <form onSubmit="App.castVote(); return false;">
+              <div class="form-group">
+                <label for="candidatesSelect">Sila Memilih hanya SATU calon: </label>
+                <select class="form-control" id="candidatesSelect">
+                </select>
+              </div>
+              <center>
+                <button type="submit" class="btn btn-success">Tekan Untuk Mengundi</button>
+              </center>
+            </form>
+            <div id="aftervote" style="display: none;">
+              <p class="text-center"><strong>Anda Telah Mengundi!</strong></p>
             </div>
-            <center>
-              <button type="submit" class="btn btn-lg btn-primary"><strong>Vote !</strong></button>
-            </center>
-          </form>
-        </div>
+          </div>
+        </center>
       </div>
     </div>
   </div>
-
-
-
-
-</center>
- 
-
-
-
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/web3.min.js"></script>
   <script src="js/truffle-contract.js"></script>
   <script src="js/app.js"></script>
+  <footer class="page-footer font-small blue pt-4">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© BLOCVOTE 2019
+    </div>
+    <!-- Copyright -->
+  </footer>
 </body>
-</html>
 
+</html>

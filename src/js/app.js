@@ -67,6 +67,7 @@ App = {
     var electionInstance;
     var loader = $("#loader");
     var content = $("#content");
+    var aftervote = $("#aftervote");
 
     loader.show();
     content.hide();
@@ -110,9 +111,11 @@ App = {
       // Do not allow a user to vote
       if (hasVoted) {
         $('form').hide();
+        aftervote.show();
       }
       loader.hide();
       content.show();
+      
     }).catch(function(error) {
       console.warn(error);
     });
