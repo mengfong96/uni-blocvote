@@ -16,15 +16,32 @@ $.get("nav.html", function(data) {
   $("#nav-bar-placeholder").replaceWith(data);
 });
 </script>
+<style>
+.view {
+  background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+}
+</style>
 
 <body>
   <div id="nav-bar-placeholder">
+  </div>
+  <div class="view intro hm-purple-light" style="height: 400px;"></div>
+  <main class="text-center py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <h5 align="justify">Abstrak</h5>
+          <p align="justify">Teknologi rantaian-blok telah terhangat pada era kini dan teknologi tersebut bukan sahaja untuk Bitcoin sahaja, malah boleh digunakan dalam pelbagai kes gunaan dalam beberapa bidang yang berbeza. Ciri-ciri utama rantaian-blok adalah rangkaian yang bercorak penyahpusatan, data yang terdapat dalam rantaian-blok yang tidak boleh diubah, setiap transaksi mempunyai cap masa, dan data transaksi terbuka kepada awam. Setiap transaksi yang ditambah dalam blok memerlukan persetujuan daripada semua nod dalam rangkaian yang sama, hal ini menunjukkan bahawa jenayah pengodaman tidak lagi menjadikan satu kerisauan sebab ciri penyahpusatan. Sistem pengundian yang berasaskan rantaian-blok Ethereum telah dicadangkan untuk membantu pilihan raya kampus UKM. Setiap pelajar boleh menyemak keputusan pilihan raya secara langsung dan setiap pengundi hanya boleh membuat satu undi sahaja. Sistem tersebut adalah senang faham dan senang untuk diakses hanya dengan apa-apa peranti yang dapat akses kepada internet. Selain itu, aplikasi tersebut juga boleh digunakan dalam pilihan raya kecil persatuan.</p>
+        </div>
+      </div>
+    </div>
+  </main>
   </div>
   <script src="js/web3.min.js"></script>
   <script src="js/truffle-contract.js"></script>
   <script src="js/app.js"></script>
   <footer class="page-footer font-small blue pt-4">
-    <div class="footer-copyright text-center py-3">© BLOCVOTE 2019, Truffle, Ganache, DappUniversity
+    <div class="footer-copyright text-center py-3">BLOCVOTE 2019, Truffle, Ganache, Metamask, DappUniversity
     </div>
   </footer>
 </body>

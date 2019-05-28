@@ -999,8 +999,7 @@
             "documentation": null,
             "id": 66,
             "implemented": true,
-            "isConstructor": true,
-            "isDeclaredConst": false,
+            "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
@@ -1010,7 +1009,6 @@
               "parameters": [],
               "src": "527:2:0"
             },
-            "payable": false,
             "returnParameters": {
               "id": 24,
               "nodeType": "ParameterList",
@@ -1021,8 +1019,7 @@
             "src": "516:486:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
-            "visibility": "public",
-            "kind": "constructor"
+            "visibility": "public"
           },
           {
             "body": {
@@ -1217,8 +1214,7 @@
             "documentation": null,
             "id": 85,
             "implemented": true,
-            "isConstructor": false,
-            "isDeclaredConst": false,
+            "kind": "function",
             "modifiers": [],
             "name": "addCandidate",
             "nodeType": "FunctionDefinition",
@@ -1255,7 +1251,6 @@
               ],
               "src": "1032:21:0"
             },
-            "payable": false,
             "returnParameters": {
               "id": 70,
               "nodeType": "ParameterList",
@@ -1266,8 +1261,7 @@
             "src": "1010:165:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
-            "visibility": "public",
-            "kind": "function"
+            "visibility": "public"
           },
           {
             "body": {
@@ -1721,58 +1715,6 @@
                   "src": "1556:37:0"
                 },
                 {
-                  "expression": {
-                    "argumentTypes": null,
-                    "arguments": [
-                      {
-                        "argumentTypes": null,
-                        "id": 94,
-                        "name": "_candidateId",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 59,
-                        "src": "1307:12:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
-                        }
-                      }
-                    ],
-                    "expression": {
-                      "argumentTypes": [
-                        {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
-                        }
-                      ],
-                      "id": 93,
-                      "name": "votedEvent",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 22,
-                      "src": "1296:10:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$returns$__$",
-                        "typeString": "function (uint256)"
-                      }
-                    },
-                    "id": 95,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "kind": "functionCall",
-                    "lValueRequested": false,
-                    "names": [],
-                    "nodeType": "FunctionCall",
-                    "src": "1296:24:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_tuple$__$",
-                      "typeString": "tuple()"
-                    }
-                  },
-                  "id": 124,
-                  "nodeType": "EmitStatement",
-                  "src": "1638:29:0",
                   "eventCall": {
                     "argumentTypes": null,
                     "arguments": [
@@ -1821,15 +1763,17 @@
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
-                  }
+                  },
+                  "id": 124,
+                  "nodeType": "EmitStatement",
+                  "src": "1638:29:0"
                 }
               ]
             },
             "documentation": null,
             "id": 126,
             "implemented": true,
-            "isConstructor": false,
-            "isDeclaredConst": false,
+            "kind": "function",
             "modifiers": [],
             "name": "vote",
             "nodeType": "FunctionDefinition",
@@ -1866,7 +1810,6 @@
               ],
               "src": "1197:19:0"
             },
-            "payable": false,
             "returnParameters": {
               "id": 89,
               "nodeType": "ParameterList",
@@ -1877,8 +1820,7 @@
             "src": "1183:492:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
-            "visibility": "public",
-            "kind": "function"
+            "visibility": "public"
           }
         ],
         "scope": 128,
@@ -2771,8 +2713,7 @@
             "documentation": null,
             "id": 66,
             "implemented": true,
-            "isConstructor": true,
-            "isDeclaredConst": false,
+            "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
@@ -2782,7 +2723,6 @@
               "parameters": [],
               "src": "527:2:0"
             },
-            "payable": false,
             "returnParameters": {
               "id": 24,
               "nodeType": "ParameterList",
@@ -2793,8 +2733,7 @@
             "src": "516:486:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
-            "visibility": "public",
-            "kind": "constructor"
+            "visibility": "public"
           },
           {
             "body": {
@@ -2989,8 +2928,7 @@
             "documentation": null,
             "id": 85,
             "implemented": true,
-            "isConstructor": false,
-            "isDeclaredConst": false,
+            "kind": "function",
             "modifiers": [],
             "name": "addCandidate",
             "nodeType": "FunctionDefinition",
@@ -3027,7 +2965,6 @@
               ],
               "src": "1032:21:0"
             },
-            "payable": false,
             "returnParameters": {
               "id": 70,
               "nodeType": "ParameterList",
@@ -3038,8 +2975,7 @@
             "src": "1010:165:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
-            "visibility": "public",
-            "kind": "function"
+            "visibility": "public"
           },
           {
             "body": {
@@ -3493,58 +3429,6 @@
                   "src": "1556:37:0"
                 },
                 {
-                  "expression": {
-                    "argumentTypes": null,
-                    "arguments": [
-                      {
-                        "argumentTypes": null,
-                        "id": 94,
-                        "name": "_candidateId",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 59,
-                        "src": "1307:12:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
-                        }
-                      }
-                    ],
-                    "expression": {
-                      "argumentTypes": [
-                        {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
-                        }
-                      ],
-                      "id": 93,
-                      "name": "votedEvent",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 22,
-                      "src": "1296:10:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$returns$__$",
-                        "typeString": "function (uint256)"
-                      }
-                    },
-                    "id": 95,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "kind": "functionCall",
-                    "lValueRequested": false,
-                    "names": [],
-                    "nodeType": "FunctionCall",
-                    "src": "1296:24:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_tuple$__$",
-                      "typeString": "tuple()"
-                    }
-                  },
-                  "id": 124,
-                  "nodeType": "EmitStatement",
-                  "src": "1638:29:0",
                   "eventCall": {
                     "argumentTypes": null,
                     "arguments": [
@@ -3593,15 +3477,17 @@
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
-                  }
+                  },
+                  "id": 124,
+                  "nodeType": "EmitStatement",
+                  "src": "1638:29:0"
                 }
               ]
             },
             "documentation": null,
             "id": 126,
             "implemented": true,
-            "isConstructor": false,
-            "isDeclaredConst": false,
+            "kind": "function",
             "modifiers": [],
             "name": "vote",
             "nodeType": "FunctionDefinition",
@@ -3638,7 +3524,6 @@
               ],
               "src": "1197:19:0"
             },
-            "payable": false,
             "returnParameters": {
               "id": 89,
               "nodeType": "ParameterList",
@@ -3649,8 +3534,7 @@
             "src": "1183:492:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
-            "visibility": "public",
-            "kind": "function"
+            "visibility": "public"
           }
         ],
         "scope": 128,
@@ -3667,12 +3551,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x992Ebc1C00aA9074Edd8af836efa5EA53BC400b5",
-      "transactionHash": "0xa77cad74761f35f0fa450b588b2f0375308c526c7c5b63d88c1528bc1508243e"
+      "address": "0x7E5cf71f9D4B54FC6ACEEB12Af0b1DD9D8031f39",
+      "transactionHash": "0xb5898ac811c5a1c329b3972b8dfb83fd3b69ddce5282b63c648d8863e27e71da"
     }
   },
   "schemaVersion": "3.0.9",
-  "updatedAt": "2019-05-26T08:57:35.866Z",
+  "updatedAt": "2019-05-28T06:12:48.930Z",
   "devdoc": {
     "methods": {}
   },

@@ -123,11 +123,11 @@
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "52:7:1",
+              "stateMutability": "nonpayable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
                 "typeString": "address"
-              },
-              "stateMutability": "nonpayable"
+              }
             },
             "value": null,
             "visibility": "public"
@@ -324,8 +324,7 @@
             "documentation": null,
             "id": 151,
             "implemented": true,
-            "isConstructor": true,
-            "isDeclaredConst": false,
+            "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
@@ -335,7 +334,6 @@
               "parameters": [],
               "src": "198:2:1"
             },
-            "payable": false,
             "returnParameters": {
               "id": 144,
               "nodeType": "ParameterList",
@@ -346,8 +344,7 @@
             "src": "187:52:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
-            "visibility": "public",
-            "kind": "constructor"
+            "visibility": "public"
           },
           {
             "body": {
@@ -406,8 +403,7 @@
             "documentation": null,
             "id": 163,
             "implemented": true,
-            "isConstructor": false,
-            "isDeclaredConst": false,
+            "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
@@ -464,7 +460,6 @@
               ],
               "src": "266:16:1"
             },
-            "payable": false,
             "returnParameters": {
               "id": 157,
               "nodeType": "ParameterList",
@@ -475,8 +470,7 @@
             "src": "245:105:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
-            "visibility": "public",
-            "kind": "function"
+            "visibility": "public"
           },
           {
             "body": {
@@ -646,8 +640,7 @@
             "documentation": null,
             "id": 183,
             "implemented": true,
-            "isConstructor": false,
-            "isDeclaredConst": false,
+            "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
@@ -693,11 +686,11 @@
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "373:7:1",
+                    "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
-                    },
-                    "stateMutability": "nonpayable"
+                    }
                   },
                   "value": null,
                   "visibility": "internal"
@@ -705,7 +698,6 @@
               ],
               "src": "372:21:1"
             },
-            "payable": false,
             "returnParameters": {
               "id": 169,
               "nodeType": "ParameterList",
@@ -716,8 +708,7 @@
             "src": "356:168:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
-            "visibility": "public",
-            "kind": "function"
+            "visibility": "public"
           }
         ],
         "scope": 185,
@@ -778,11 +769,11 @@
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "52:7:1",
+              "stateMutability": "nonpayable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
                 "typeString": "address"
-              },
-              "stateMutability": "nonpayable"
+              }
             },
             "value": null,
             "visibility": "public"
@@ -979,8 +970,7 @@
             "documentation": null,
             "id": 151,
             "implemented": true,
-            "isConstructor": true,
-            "isDeclaredConst": false,
+            "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
@@ -990,7 +980,6 @@
               "parameters": [],
               "src": "198:2:1"
             },
-            "payable": false,
             "returnParameters": {
               "id": 144,
               "nodeType": "ParameterList",
@@ -1001,8 +990,7 @@
             "src": "187:52:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
-            "visibility": "public",
-            "kind": "constructor"
+            "visibility": "public"
           },
           {
             "body": {
@@ -1061,8 +1049,7 @@
             "documentation": null,
             "id": 163,
             "implemented": true,
-            "isConstructor": false,
-            "isDeclaredConst": false,
+            "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
@@ -1119,7 +1106,6 @@
               ],
               "src": "266:16:1"
             },
-            "payable": false,
             "returnParameters": {
               "id": 157,
               "nodeType": "ParameterList",
@@ -1130,8 +1116,7 @@
             "src": "245:105:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
-            "visibility": "public",
-            "kind": "function"
+            "visibility": "public"
           },
           {
             "body": {
@@ -1301,8 +1286,7 @@
             "documentation": null,
             "id": 183,
             "implemented": true,
-            "isConstructor": false,
-            "isDeclaredConst": false,
+            "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
@@ -1348,11 +1332,11 @@
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "373:7:1",
+                    "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
-                    },
-                    "stateMutability": "nonpayable"
+                    }
                   },
                   "value": null,
                   "visibility": "internal"
@@ -1360,7 +1344,6 @@
               ],
               "src": "372:21:1"
             },
-            "payable": false,
             "returnParameters": {
               "id": 169,
               "nodeType": "ParameterList",
@@ -1371,8 +1354,7 @@
             "src": "356:168:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
-            "visibility": "public",
-            "kind": "function"
+            "visibility": "public"
           }
         ],
         "scope": 185,
@@ -1389,12 +1371,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x5B8f2222c7A1CBBbc10DB4C3918c83890A87c290",
-      "transactionHash": "0x640d609ed65c97135e07b8e766a3bc2e3811c2bb94364c69fec51e06f4e064c1"
+      "address": "0xb8eb87ADA3F5A129E3B89493Fa8827917e8D618C",
+      "transactionHash": "0xdc745852a2a221c2f000f8e8ee127b2fe2005e8589a4bcdf50a366a6b1dcd398"
     }
   },
   "schemaVersion": "3.0.9",
-  "updatedAt": "2019-05-26T08:57:35.879Z",
+  "updatedAt": "2019-05-28T06:12:48.947Z",
   "devdoc": {
     "methods": {}
   },
