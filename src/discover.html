@@ -18,6 +18,19 @@
 </script>
 
 <body>
+
+  <style>
+    
+    .card-columns {
+      @include media-breakpoint-only(lg) {
+        column-count: 6;
+      }
+      @include media-breakpoint-only(xl) {
+        column-count: 6;
+      }
+    }
+
+  </style>
   <div id="nav-bar-placeholder">
   </div>
   <div class="container">
@@ -30,7 +43,7 @@
           <br />
         </div>
       </div>
-      <div class="card-columns">
+      <div class="card-columns ">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="../../images/img_avatar.png" alt="Card image cap">
           <div class="card-body">
