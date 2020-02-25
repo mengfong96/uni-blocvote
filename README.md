@@ -38,8 +38,7 @@ It is a browser extension which can be found on browser market, and search for M
 ```
 $ npm run dev
 ```
-Visit this URL in your browser: http://localhost:3000
-Open "Mengundi!" tab to test the functionality. 
+Visit this URL in your browser: http://localhost:3000 and open "Mengundi!" tab to test the functionality. 
 
 ## Acknowledgments
 * Guide from Pet Shop(Truffle): https://www.trufflesuite.com/tutorials/pet-shop
